@@ -1,70 +1,130 @@
-# Getting Started with Create React App
+# BookIt — Appointment Booking Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![BookIt](https://img.shields.io/badge/Status-Live-brightgreen)
+![MERN](https://img.shields.io/badge/Stack-MERN-blue)
+![License](https://img.shields.io/badge/License-MIT-yellow)
 
-## Available Scripts
+## 🚀 Live Demo
+👉 **[https://bookit-frontend-xi.vercel.app](https://bookit-frontend-xi.vercel.app)**
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 📌 About
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+BookIt is a full-stack SaaS Appointment Booking Platform built for businesses across Pakistan. It solves the problem of managing appointments via phone calls and WhatsApp by providing a professional online booking system.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**Who is it for?**
+- 🏥 Doctors & Clinics
+- 💇 Salons & Beauty Parlors
+- 📚 Tutors & Coaches
+- 💼 Consultants & Freelancers
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## ✨ Features
 
-### `npm run build`
+### For Business Owners
+- ✅ Register & login with JWT authentication
+- ✅ Professional dashboard with real-time stats
+- ✅ Add & manage services (name, duration, price)
+- ✅ View all incoming appointments
+- ✅ Confirm, cancel, or complete bookings
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### For Customers
+- ✅ Browse available businesses & services
+- ✅ Book appointments with date & time selection
+- ✅ Conflict prevention — no double bookings
+- ✅ View booking history with status tracking
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### General
+- ✅ Fully responsive design (mobile friendly)
+- ✅ Purple modern theme
+- ✅ Pricing plans page
+- ✅ FAQ section
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🛠️ Tech Stack
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+| Frontend | Backend | Database | Deployment |
+|----------|---------|----------|------------|
+| React.js | Node.js | MongoDB Atlas | Vercel |
+| Tailwind CSS | Express.js | Mongoose | Railway |
+| React Router | JWT Auth | | |
+| Axios | Bcrypt.js | | |
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 📸 Screenshots
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Home Page
+![Home](https://via.placeholder.com/800x400/7C3AED/ffffff?text=BookIt+Home+Page)
 
-## Learn More
+### Business Dashboard
+![Dashboard](https://via.placeholder.com/800x400/7C3AED/ffffff?text=Business+Dashboard)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Book Appointment
+![Booking](https://via.placeholder.com/800x400/7C3AED/ffffff?text=Book+Appointment)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 🚀 Getting Started
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Prerequisites
+- Node.js v20+
+- MongoDB Atlas account
+- Git
 
-### Analyzing the Bundle Size
+### Installation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+**Clone the repositories:**
+```bash
+git clone https://github.com/rabiaazam2021-code/bookit-frontend
+git clone https://github.com/rabiaazam2021-code/bookit-backend
+```
 
-### Making a Progressive Web App
+**Frontend setup:**
+```bash
+cd bookit-frontend
+npm install
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+**Backend setup:**
+```bash
+cd bookit-backend
+npm install
+```
 
-### Advanced Configuration
+Create `.env` file in backend:
+```env
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+PORT=5000
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```bash
+node server.js
+```
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 📁 Project Structure
+---
 
-### `npm run build` fails to minify
+## 👩‍💻 Developer
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Rabia Azam**
+- 🌐 [Live Project](https://bookit-frontend-xi.vercel.app)
+- 💼 [LinkedIn](https://www.linkedin.com/in/rabia-azam)
+- 🐙 [GitHub](https://github.com/rabiaazam2021-code)
+
+---
+
+## 📄 License
+
+MIT License — feel free to use this project for learning or inspiration.
+
+---
+
+⭐ **If you found this project helpful, please give it a star!**
